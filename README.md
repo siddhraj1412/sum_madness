@@ -24,13 +24,6 @@ A simple and interactive web app for performing basic arithmetic operations (cur
 
 ---
 
-## 📸 Screenshot
-
-![SumMadness Screenshot](https://summadness.netlify.app/screenshot.png)  
-*(Replace this URL with an actual screenshot if available)*
-
----
-
 ## 🧠 How It Works
 
 1. User enters two values.
@@ -86,4 +79,5 @@ Let me know if you want to include:
 - Additional operations (sub, mul, div)
 - Your GitHub repo link
 - Contribution instructions
+
 
