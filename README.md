@@ -1,12 +1,83 @@
-# React + Vite
+# Sum Madness 🔢✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive web app for performing basic arithmetic operations (currently addition), built using **React.js** with state management and input validation.
 
-Currently, two official plugins are available:
+🚀 Live Demo: [summadness.netlify.app](https://summadness.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖥️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add two numbers instantly
+- ✅ Validates input fields for numbers
+- ✅ Displays error messages for invalid or missing inputs
+- ✅ Clean and minimal UI
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** (Class Component)
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **Netlify** for deployment
+
+---
+
+## 📸 Screenshot
+
+![SumMadness Screenshot](https://summadness.netlify.app/screenshot.png)  
+*(Replace this URL with an actual screenshot if available)*
+
+---
+
+## 🧠 How It Works
+
+1. User enters two values.
+2. The app checks if both are valid numbers.
+3. On clicking the **`+`** button, the app calculates the sum.
+4. If inputs are invalid, an error is shown in red.
+
+---
+
+## 📁 Folder Structure
+
+src/
+│
+├── Sumdemo.js # Main component with logic
+├── App.js # Renders Sumdemo
+├── index.js # React DOM render
+
+
+---
+
+## 🧪 Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/summadness.git
+
+# Navigate to the project folder
+cd summadness
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+🌐 Deployment
+The app is deployed on Netlify:
+https://summadness.netlify.app/
+
+🙌 Acknowledgments
+Thanks to React.js and the open-source community.
+Feel free to fork, modify, and extend the app!
+
+
+---
+
+Let me know if you want to include:
+- Additional operations (sub, mul, div)
+- Your GitHub repo link
+- Contribution instructions
