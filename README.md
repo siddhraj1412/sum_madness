@@ -38,18 +38,23 @@ A simple and interactive web app for performing basic arithmetic operations (cur
 3. On clicking the **`+`** button, the app calculates the sum.
 4. If inputs are invalid, an error is shown in red.
 
----
+```
 
 ## 📁 Folder Structure
 
-src/
-│
-├── Sumdemo.js # Main component with logic
-├── App.js # Renders Sumdemo
-├── index.js # React DOM render
+basic-website/
+├── public/
+├── src/
+│ ├── components/
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
 
----
+```
 
 ## 🧪 Run Locally
 
@@ -81,3 +86,4 @@ Let me know if you want to include:
 - Additional operations (sub, mul, div)
 - Your GitHub repo link
 - Contribution instructions
+
