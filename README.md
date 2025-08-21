@@ -71,13 +71,3 @@ https://summadness.netlify.app/
 🙌 Acknowledgments
 Thanks to React.js and the open-source community.
 Feel free to fork, modify, and extend the app!
-
-
----
-
-Let me know if you want to include:
-- Additional operations (sub, mul, div)
-- Your GitHub repo link
-- Contribution instructions
-
-
